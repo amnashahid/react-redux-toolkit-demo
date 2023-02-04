@@ -1,13 +1,8 @@
 import { createSlice } from '@reduxjs/toolkit';
 const initialState = {
     products: [
-        { id: 1, name: 'product 1', price: 160 },
-        { id: 2, name: 'product 2', price: 130 },
-        { id: 3, name: 'product 3', price: 140 },
-        { id: 4, name: 'product 4', price: 150 },
-        { id: 5, name: 'product 5', price: 140 },
     ],
-    count: 5
+    count: 0
 }
 
 export const cartSlice = createSlice({

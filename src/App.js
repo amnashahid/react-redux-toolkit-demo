@@ -1,17 +1,14 @@
 
 import React from 'react'
 import { store } from './redux/store';
-import { Provider } from 'react-redux'
-import Cart from './Cart';
-import Header from './Header';
+import { Provider, } from 'react-redux'
+import MyApp from './container'
 
 function App()
 {
   return (
     <Provider store={store}>
-      <Header></Header>
-      <Cart>
-      </Cart>
+      <MyApp></MyApp>
     </Provider>
   );
 }
